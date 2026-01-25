@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import BlogCard from "../components/BlogCard";
+import { Link } from "react-router-dom";
 
 const Blogs = () => {
     const [blogs, setBlogs] = useState(null);
@@ -65,21 +66,27 @@ const Blogs = () => {
     }
 
     return (
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-5 max-w-360 w-full mx-auto mt-10">
-            {blogs &&
-                blogs.map((item) => (
-                    <BlogCard
-                        key={item.id}
-                        image={item.image}
-                        category={item.category}
-                        title={item.title}
-                        content={item.content}
-                        author={item.author}
-                        date={item.date}
-                        likes={item.likes}
-                        comments={item.comments.length}
-                    />
-                ))}
+        <div className="w-full max-w-[1280px] px-10">
+            <h1 className="pageTitle py-5 text-left w-full">Blogs</h1>
+            <div className=" pt-5 flex justify-end w-full">
+                <Link to="/blogs/create" className="px-5 py-2 bg-red-400 text-white font-semibold font-sans rounded-sm hover:bg-red-500">Create Blog</Link>
+            </div>
+            <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-5 w-full mt-10">
+                {blogs &&
+                    blogs.map((item) => (
+                        <BlogCard
+                            key={item.id}
+                            image={item.image}
+                            category={item.category}
+                            title={item.title}
+                            content={item.content}
+                            author={item.author}
+                            date={item.date}
+                            likes={item.likes}
+                            comments={item.comments.length}
+                        />
+                    ))}
+            </div>
         </div>
     );
 };

@@ -5,5 +5,9 @@
 }
 
 @utility hero {
-    @apply w-screen h-[calc(100vh-80px)] flex flex-col justify-center items-center; 
+    @apply w-screen flex flex-col justify-center items-center; 
+}
+
+@utility pageTitle {
+    @apply text-8xl font-bold text-red-400 tracking-tight;
 }
