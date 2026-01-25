@@ -1,1 +1,9 @@
-@import "tailwindcss"
+@import "tailwindcss";
+
+@utility nav-link {
+    @apply text-[20px] font-bold font-sans text-gray-400 hover:text-red-500;
+}
+
+@utility hero {
+    @apply w-screen h-[calc(100vh-80px)] flex flex-col justify-center items-center; 
+}
