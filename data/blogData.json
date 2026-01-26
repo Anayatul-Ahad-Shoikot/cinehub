@@ -1,114 +1,155 @@
 {
-    "blogs": [
+  "blogs": [
+    {
+      "id": "1",
+      "title": "How to Use JSON-Server",
+      "content": "JSON Server is one of the easiest tools for frontend developers who want a quick and lightweight backend for testing...",
+      "author": "Ahad Shoikot",
+      "category": "Web Development",
+      "date": "2024-12-15",
+      "tags": [
+        "json-server",
+        "api",
+        "frontend"
+      ],
+      "image": "https://picsum.photos/800/400?random=1",
+      "rating": 5,
+      "likes": 12,
+      "comments": [
         {
-            "id": 1,
-            "title": "How to Use JSON-Server",
-            "content": "JSON Server is one of the easiest tools for frontend developers who want a quick and lightweight backend for testing...",
-            "author": "Ahad Shoikot",
-            "category": "Web Development",
-            "date": "2024-12-15",
-            "tags": ["json-server", "api", "frontend"],
-            "image": "https://picsum.photos/800/400?random=1",
-            "rating": 5,
-            "likes": 12,
-            "comments": [
-                {
-                    "user": "Rahim",
-                    "comment": "Very helpful article, perfect for beginners!",
-                    "date": "2025-01-02"
-                },
-                {
-                    "user": "Tisha",
-                    "comment": "Learned JSON Server in 10 minutes, thanks!",
-                    "date": "2025-01-05"
-                }
-            ]
+          "user": "Rahim",
+          "comment": "Very helpful article, perfect for beginners!",
+          "date": "2025-01-02"
         },
         {
-            "id": 2,
-            "title": "React State Management: When Should You Use Context API?",
-            "content": "React's Context API is powerful but often misused...",
-            "author": "Admin",
-            "category": "React",
-            "date": "2024-12-18",
-            "tags": ["react", "context-api", "state"],
-            "image": "https://picsum.photos/800/400?random=2",
-            "rating": 4,
-            "likes": 8,
-            "comments": [
-                {
-                    "user": "Amin",
-                    "comment": "Good explanation, but needs more examples.",
-                    "date": "2025-01-03"
-                }
-            ]
-        },
-        {
-            "id": 3,
-            "title": "Top 7 Tips to Improve Your Frontend Performance",
-            "content": "Frontend performance plays a major role in user experience...",
-            "author": "Admin",
-            "category": "Performance",
-            "date": "2024-12-20",
-            "tags": ["performance", "optimization", "frontend"],
-            "image": "https://picsum.photos/800/400?random=3",
-            "rating": 5,
-            "likes": 21,
-            "comments": [
-                {
-                    "user": "Sadia",
-                    "comment": "Performance tips are spot on! Helped my project a lot.",
-                    "date": "2025-01-06"
-                },
-                {
-                    "user": "Omar",
-                    "comment": "Clear and practical advice. Nice!",
-                    "date": "2025-01-08"
-                }
-            ]
-        },
-        {
-            "id": 4,
-            "title": "Why TypeScript Is Becoming Essential for Modern Frontend Development",
-            "content": "TypeScript adds static typing to JavaScript...",
-            "author": "Tech Writer",
-            "category": "JavaScript",
-            "date": "2024-12-22",
-            "tags": ["typescript", "javascript"],
-            "image": "https://picsum.photos/800/400?random=4",
-            "rating": 4,
-            "likes": 10,
-            "comments": [
-                {
-                    "user": "Hasib",
-                    "comment": "TypeScript is indeed very helpful. Great article!",
-                    "date": "2025-01-12"
-                }
-            ]
-        },
-        {
-            "id": 5,
-            "title": "Fetch vs Axios vs React Query: Which Should You Use?",
-            "content": "Fetch is the built-in API for making HTTP requests...",
-            "author": "Admin",
-            "category": "API",
-            "date": "2024-12-26",
-            "tags": ["api", "axios", "react-query"],
-            "image": "https://picsum.photos/800/400?random=5",
-            "rating": 5,
-            "likes": 17,
-            "comments": [
-                {
-                    "user": "Nadia",
-                    "comment": "This helped me choose React Query for my project!",
-                    "date": "2025-01-07"
-                },
-                {
-                    "user": "Rafi",
-                    "comment": "Axios vs Fetch explanation is super clear.",
-                    "date": "2025-01-09"
-                }
-            ]
+          "user": "Tisha",
+          "comment": "Learned JSON Server in 10 minutes, thanks!",
+          "date": "2025-01-05"
         }
-    ]
+      ]
+    },
+    {
+      "id": "2",
+      "title": "React State Management: When Should You Use Context API?",
+      "content": "React's Context API is powerful but often misused...",
+      "author": "Admin",
+      "category": "React",
+      "date": "2024-12-18",
+      "tags": [
+        "react",
+        "context-api",
+        "state"
+      ],
+      "image": "https://picsum.photos/800/400?random=2",
+      "rating": 4,
+      "likes": 8,
+      "comments": [
+        {
+          "user": "Amin",
+          "comment": "Good explanation, but needs more examples.",
+          "date": "2025-01-03"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "title": "Top 7 Tips to Improve Your Frontend Performance",
+      "content": "Frontend performance plays a major role in user experience...",
+      "author": "Admin",
+      "category": "Performance",
+      "date": "2024-12-20",
+      "tags": [
+        "performance",
+        "optimization",
+        "frontend"
+      ],
+      "image": "https://picsum.photos/800/400?random=3",
+      "rating": 5,
+      "likes": 21,
+      "comments": [
+        {
+          "user": "Sadia",
+          "comment": "Performance tips are spot on! Helped my project a lot.",
+          "date": "2025-01-06"
+        },
+        {
+          "user": "Omar",
+          "comment": "Clear and practical advice. Nice!",
+          "date": "2025-01-08"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "title": "Why TypeScript Is Becoming Essential for Modern Frontend Development",
+      "content": "TypeScript adds static typing to JavaScript...",
+      "author": "Tech Writer",
+      "category": "JavaScript",
+      "date": "2024-12-22",
+      "tags": [
+        "typescript",
+        "javascript"
+      ],
+      "image": "https://picsum.photos/800/400?random=4",
+      "rating": 4,
+      "likes": 10,
+      "comments": [
+        {
+          "user": "Hasib",
+          "comment": "TypeScript is indeed very helpful. Great article!",
+          "date": "2025-01-12"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "title": "Fetch vs Axios vs React Query: Which Should You Use?",
+      "content": "Fetch is the built-in API for making HTTP requests...",
+      "author": "Admin",
+      "category": "API",
+      "date": "2024-12-26",
+      "tags": [
+        "api",
+        "axios",
+        "react-query"
+      ],
+      "image": "https://picsum.photos/800/400?random=5",
+      "rating": 5,
+      "likes": 17,
+      "comments": [
+        {
+          "user": "Nadia",
+          "comment": "This helped me choose React Query for my project!",
+          "date": "2025-01-07"
+        },
+        {
+          "user": "Rafi",
+          "comment": "Axios vs Fetch explanation is super clear.",
+          "date": "2025-01-09"
+        }
+      ]
+    },
+    {
+      "id": "3fb2",
+      "title": "yyy",
+      "content": "yy",
+      "author": "yyy",
+      "image": "C:\\fakepath\\ChatGPT Image Jan 8, 2026, 06_50_26 PM.png",
+      "category": "Performance",
+      "rating": 0,
+      "likes": 0,
+      "comments": {}
+    },
+    {
+      "id": "eaa3",
+      "title": "awd",
+      "content": "awd",
+      "author": "artgaerg",
+      "image": "C:\\fakepath\\google-4356c197-57b2-423d-87e3-f34984405d2d.jpg",
+      "category": "API",
+      "rating": 0,
+      "likes": 0,
+      "comments": {}
+    }
+  ]
 }

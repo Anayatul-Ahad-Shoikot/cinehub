@@ -69,7 +69,7 @@ const Blogs = () => {
         <div className="w-full max-w-[1280px] px-10">
             <h1 className="pageTitle py-5 text-left w-full">Blogs</h1>
             <div className=" pt-5 flex justify-end w-full">
-                <Link to="/blogs/create" className="px-5 py-2 bg-red-400 text-white font-semibold font-sans rounded-sm hover:bg-red-500">Create Blog</Link>
+                <Link to="/blogs/create" className="btn1">Create Blog</Link>
             </div>
             <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-5 w-full mt-10">
                 {blogs &&

@@ -11,3 +11,7 @@
 @utility pageTitle {
     @apply text-8xl font-bold text-red-400 tracking-tight;
 }
+
+@utility btn1 {
+    @apply px-5 py-2 bg-red-400 text-white font-semibold font-sans rounded-sm hover:bg-red-500;
+}
